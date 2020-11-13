@@ -8,5 +8,9 @@ public class ListaEstatica<T> {
 		this.elementos = (T[]) new Object[tamanho];
 		this.quantidade = 0;		
 	}
+	
+	public boolean isVazia() {
+		return this.quantidade == 0;
+	}
 
 }

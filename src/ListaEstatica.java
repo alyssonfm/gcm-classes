@@ -12,5 +12,8 @@ public class ListaEstatica<T> {
 	public boolean isVazia() {
 		return this.quantidade == 0;
 	}
-
+	
+	public int getQuantidade() {
+		return this.quantidade;
+	}
 }

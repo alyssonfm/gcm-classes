@@ -1,3 +1,6 @@
+/*
+Classe ListaEstatica Generica
+*/
 public class ListaEstatica<T> {
 	
 	private T[] elementos;

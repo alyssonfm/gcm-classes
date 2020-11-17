@@ -31,4 +31,10 @@ public class ListaEstatica<T> {
 			++this.quantidade;
 		}
 	}
+	
+	public void inserirFim(T novoNo) {
+		if(this.isCheia()) System.out.println("Lista cheia, naoh eh possivel inserir");
+		else
+			this.elementos[this.quantidade] = novoNo;
+	}
 }

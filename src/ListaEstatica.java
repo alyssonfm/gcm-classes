@@ -53,4 +53,11 @@ public class ListaEstatica<T> {
 		}
 		return Arrays.asList(temp).iterator();
 	}
+	
+	public int pesquisar(T elemento) {
+		for(int i = 0; i < this.getQuantidade(); i++) {
+			if(this.elementos[i].equals(elemento)) return i;
+		}
+		return -1;
+	}
 }

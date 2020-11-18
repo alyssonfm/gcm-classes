@@ -77,4 +77,13 @@ public class ListaEstatica<T> {
 		return this.elementos[--this.quantidade];
 	}
 	
+	public void remover(T elemento) throws ElementoNaoExisteException {
+		int posicao = this.pesquisar(elemento);
+		if(posicao < 0) throw new ElementoNaoExisteException();
+		for(int i = posicao; i < this.quantidade; ++i) {
+			this.elementos[i] = this.elementos[i+1];
+		}
+		--this.quantidade;
+	}
+	
 }

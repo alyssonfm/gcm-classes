@@ -24,8 +24,8 @@ public class ListaEstatica<T> {
 	}
 	
 	
-	public void inserirInicio(T novoNo) {
-		if(this.isCheia()) System.out.println("Lista cheia, naoh eh possivel inserir");
+	public void inserirInicio(T novoNo) throws ListaCheiaException {
+		if(this.isCheia()) throw new ListaCheiaException();
 		else {
 			for(int i = this.quantidade; i > 0; --i) {
 				this.elementos[i] = this.elementos[i-1];
@@ -35,8 +35,8 @@ public class ListaEstatica<T> {
 		}
 	}
 	
-	public void inserirFim(T novoNo) {
-		if(this.isCheia()) System.out.println("Lista cheia, naoh eh possivel inserir");
+	public void inserirFim(T novoNo) throws ListaCheiaException {
+		if(this.isCheia()) throw new ListaCheiaException();
 		else
 			this.elementos[this.quantidade] = novoNo;
 	}

@@ -60,4 +60,21 @@ public class ListaEstatica<T> {
 		}
 		return -1;
 	}
+	
+	public T removerInicio() throws ListaVaziaException{
+		T aux;
+		if(this.isVazia()) throw new ListaVaziaException();
+		aux = this.elementos[0];
+		--this.quantidade;
+		for(int i = 0; i < this.quantidade; ++i) {
+			this.elementos[i] = this.elementos[i+1];
+		}
+		return aux;
+	}
+	
+	public T removerFinal() throws ListaVaziaException {
+		if(this.isVazia()) throw new ListaVaziaException();
+		return this.elementos[--this.quantidade];
+	}
+	
 }

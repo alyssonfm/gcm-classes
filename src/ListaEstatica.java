@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Iterator;
+
 /*
 Classe ListaEstatica Generica
 */
@@ -6,6 +9,7 @@ public class ListaEstatica<T> {
 	private T[] elementos;
 	private int quantidade;
 	
+	@SuppressWarnings("unchecked")
 	public ListaEstatica(int tamanho){
 		this.elementos = (T[]) new Object[tamanho];
 		this.quantidade = 0;		
@@ -39,5 +43,14 @@ public class ListaEstatica<T> {
 		if(this.isCheia()) throw new ListaCheiaException();
 		else
 			this.elementos[this.quantidade] = novoNo;
+	}
+	
+	public Iterator<T> getElements(){
+		@SuppressWarnings("unchecked")
+		T[] temp = (T[]) new Object[this.getQuantidade()];
+		for (int i = 0; i < this.getQuantidade(); i++) {
+			temp[i] = this.elementos[i];
+		}
+		return Arrays.asList(temp).iterator();
 	}
 }

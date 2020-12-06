@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="JavaCompile" default="compile_project" basedir="../gcm-classes/">
+
+	<target name="clean">
+		<echo>Apagando arquivos previamente compilados (.class antigos)</echo>
+		<delete dir="bin"/>
+	</target>
+	
+	<target name="compile_project" depends="clean">
+			<echo>Compilando as classes</echo>
+			<mkdir dir="bin"/>
+			<javac debug="on" srcdir="src/code" destdir="bin" includeantruntime="false">
+				<classpath>
+					<fileset dir="src/">
+						<include name="**/*.java" />
+					</fileset>
+				</classpath>
+			</javac>
+	</target>
+</project>

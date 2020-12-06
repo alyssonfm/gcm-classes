@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="runTests" default="run_tests" basedir="../gcm-classes/">
+
+	<target name="run_tests">
+		<echo>Executando os testes JUnit</echo>
+		<junit printsummary="yes" haltonfailure="yes" fork="true" maxmemory="256m">
+			<classpath>
+				<fileset dir="lib/">
+					<include name="**/*.jar" />
+				</fileset>
+				<pathelement location="bin/code" />
+				<pathelement location="bin/tests" />
+			</classpath>
+			<formatter type="xml" />
+			<batchtest todir="src/tests" haltonfailure="yes">
+				<fileset dir="bin/tests">
+					<include name="*.class" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+
+</project>

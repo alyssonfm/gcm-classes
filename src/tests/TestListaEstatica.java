@@ -27,7 +27,7 @@ class TestListaEstatica {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		assertEquals(l.getQuantidade(), 2);
+		assertEquals(l.getQuantidade(), 1);
 	}
 
 }

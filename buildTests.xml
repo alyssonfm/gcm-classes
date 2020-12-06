@@ -2,7 +2,7 @@
 <project name="runTests" default="run_tests" basedir="..">
 
 	<target name="run_tests">
-		<echo>Executando os testes JUnit</echo>
+		<echo>Executando os testes usando o JUnit</echo>
 		<junit printsummary="yes" haltonfailure="yes" fork="true" maxmemory="256m">
 			<classpath>
 				<fileset dir="lib/">

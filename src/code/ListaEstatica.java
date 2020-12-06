@@ -36,7 +36,7 @@ public class ListaEstatica<T> {
 				this.elementos[i] = this.elementos[i-1];
 			}
 			this.elementos[0] = novoNo;
-			++this.quantidade
+			++this.quantidade;
 		}
 	}
 	

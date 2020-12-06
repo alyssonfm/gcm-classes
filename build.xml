@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="JavaCompile" default="compile_project" basedir="../gcm-classes/">
+<project name="JavaCompile" default="compile_project" basedir="..">
 
 	<target name="clean">
 		<echo>Apagando arquivos previamente compilados (.class antigos)</echo>

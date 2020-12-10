@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import code.ListaCheiaException;
 import code.ListaEstatica;
 
-class TestListaEstatica {
+public class TestListaEstatica {
 
 	@Test
 	void testConstructor() {
@@ -24,10 +24,15 @@ class TestListaEstatica {
 		try {
 			l.inserirInicio("Alysson");
 		} catch (ListaCheiaException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		assertEquals(l.getQuantidade(), 1);
+	}
+	
+	@Test
+	void testIsVazia() {
+		ListaEstatica<String> l = new ListaEstatica<String>(10);
+		assertTrue(l.isVazia());
 	}
 
 }

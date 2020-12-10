@@ -9,12 +9,16 @@
 	<target name="compile_project" depends="clean">
 			<echo>Compilando as classes</echo>
 			<mkdir dir="bin"/>
-			<javac debug="on" srcdir="src/code" destdir="bin" includeantruntime="false">
+			<javac debug="on" srcdir="src/" destdir="bin" includeantruntime="false">
 				<classpath>
 					<fileset dir="src/">
 						<include name="**/*.java" />
 					</fileset>
+					<fileset dir="lib/">
+						<include name="**/*.jar" />
+					</fileset>
 				</classpath>
 			</javac>
 	</target>
+	
 </project>

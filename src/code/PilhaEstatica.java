@@ -1,14 +1,15 @@
 package code;
+
 /*
 Classe Pilha Estatica Generica
 */
 public class PilhaEstatica<T> {
-	public T[] elementos;
-	private int topo;
+  public T[] elementos;
+  private int topo;
 
-	@SuppressWarnings("unchecked")
-	public PilhaEstatica(int tamanho) {
-		this.elementos = (T[]) new Object[tamanho];
+  @SuppressWarnings("unchecked")
+  public PilhaEstatica(int tamanho) {
+    this.elementos = (T[]) new Object[tamanho];
 		this.topo = -1;
 	}
 

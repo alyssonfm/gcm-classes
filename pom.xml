@@ -3,4 +3,31 @@
   <groupId>home</groupId>
   <artifactId>EstruturaDados</artifactId>
   <version>1.0</version>
+  
+    <dependencies>
+        <dependency>
+	<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.12</version>
+		<scope>test</scope>
+  </dependency>
+  
+  </dependencies>
+  
+  <build>
+  	<plugins>
+  	  	<plugin>
+  	  	<groupId>org.maven.plugins</groupId>
+  	  		<artifactId>maven-compiler-plugin</artifactId>
+  	  	<version>3.6.3</version>
+            <configuration>
+                <source>1.11</source>
+                <target>1.11</target>
+            </configuration>
+  	  	</plugin>
+	</plugins>
+  </build>
+  
+
+  
 </project>

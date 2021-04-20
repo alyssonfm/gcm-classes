@@ -1,6 +1,6 @@
 package code;
 
-public class ListaCheiaException extends Exception{
+public class ListaCheiaException extends Exception {
 
 	/**
 	 * 

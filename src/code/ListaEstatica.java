@@ -43,8 +43,11 @@ public class ListaEstatica<T> {
 	
 	public void inserirFim(T novoNo) throws ListaCheiaException {
 		if(this.isCheia()) throw new ListaCheiaException();
-		else
-			this.elementos[this.quantidade] = novoNo;
+		else {
+		    this.elementos[this.quantidade] = novoNo; 
+		    ++this.quantidade;
+		}
+		    
 	}
 	
 	public Iterator<T> getElements(){

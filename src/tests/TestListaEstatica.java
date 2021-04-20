@@ -34,5 +34,18 @@ public class TestListaEstatica {
 		ListaEstatica<String> l = new ListaEstatica<String>(10);
 		assertTrue(l.isVazia());
 	}
+	
+	@Test
+	void testInserirFim() {
+	    ListaEstatica<String> l = new ListaEstatica<String>(10);
+	    try {
+		l.inserirFim("Alysson");
+		assertTrue(l.pesquisar("Alysson") != -1);
+		
+	    } catch (ListaCheiaException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	    }
+	}
 
 }

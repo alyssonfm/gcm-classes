@@ -33,6 +33,13 @@ public class TestListaEstatica {
 	void testIsVazia() {
 		ListaEstatica<String> l = new ListaEstatica<String>(10);
 		assertTrue(l.isVazia());
+		try {
+		l.inserirFim("Alysson");
+		assertFalse(l.isVazia());
+		
+	    } catch (ListaCheiaException e) {
+		e.printStackTrace();
+	    }
 	}
 	
 	@Test

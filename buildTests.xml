@@ -3,18 +3,18 @@
 
 	<target name="run_tests">
 		<echo>Executando os testes usando o JUnit</echo>
-		<junit printsummary="yes" haltonfailure="yes" fork="true" maxmemory="256m">
+		<junit printsummary="yes" haltonfailure="no" fork="true" maxmemory="256m">
 			<classpath>
 				<fileset dir="lib/">
 					<include name="**/*.jar" />
+					<include name="junit.jar" />
 				</fileset>
-				<pathelement location="bin/code" />
-				<pathelement location="bin/tests" />
+				<pathelement location="bin/" />
 			</classpath>
 			<formatter type="xml" />
 			<batchtest todir="src/tests" haltonfailure="yes">
-				<fileset dir="bin/tests">
-					<include name="*.class" />
+				<fileset dir="bin/">
+					<include name="testsTestListaEstatica.class" />
 				</fileset>
 			</batchtest>
 		</junit>

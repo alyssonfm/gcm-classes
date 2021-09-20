@@ -1,8 +1,7 @@
 package tests;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Test;
+import org.junit.*;
+import static org.junit.Assert.*;
 
 import code.ListaCheiaException;
 import code.ListaEstatica;

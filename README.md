@@ -6,8 +6,12 @@ Departamento de Engenharias e Tecnologia - DETEC
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 UFERSA - Pau dos Ferros - RN.
 
+=======
+UFERSA - Pau dos Ferros.
+>>>>>>> parent of 13e57e2 (Update README.md)
 =======
 UFERSA - Pau dos Ferros.
 >>>>>>> parent of 13e57e2 (Update README.md)

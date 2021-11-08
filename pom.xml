@@ -11,14 +11,19 @@
 		<version>4.12</version>
 		<scope>test</scope>
   </dependency>
-  
 	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 	<dependency>
 	    <groupId>mysql</groupId>
 	    <artifactId>mysql-connector-java</artifactId>
 	    <version>8.0.27</version>
 	</dependency>
-  
+	
+	<!-- https://mvnrepository.com/artifact/org.evosuite/evosuite-runtime -->
+	<dependency>
+	    <groupId>org.evosuite</groupId>
+	    <artifactId>evosuite-runtime</artifactId>
+	    <version>1.0.6</version>
+	</dependency>
   </dependencies>
   
   <build>

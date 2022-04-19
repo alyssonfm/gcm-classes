@@ -1,0 +1,90 @@
+https://covid19.cct.ufcg.edu.br/#/
+https://matrizdinamica-ifpb.netlify.app
+https://effectivenotes.app
+
+27/06/22 a 26/10/22 - Proposta do semestre 2022.1
+05/12/22 a 02/05/22 - Proposta do semestre 2022.2
+
+mvn sonar:sonar \
+  -Dsonar.projectKey=gcm-classes \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=9be04254c6c6c6317f906bec7a92e0e3ccc6a7bc
+
+Muito bem, continue assim!
+Quase lá, um pouco mais de esforço e você consegue!
+Não se preocupa, tem mais exercícios nos quais você poderá se dar muito bem.
+
+http://czt.sourceforge.net/eclipse/updates/nightly/
+
+https://z-editor.github.io/
+
+http://staffwww.dcs.shef.ac.uk/people/A.Simons/z2sal/userguide.html
+
+Aula Tradução: https://docs.google.com/presentation/d/1EYgabEdm8oBU0nNfv6mr-8kLHrz3aQ5P9BOhl6dBwRU/edit?usp=sharing
+
+ensaio de Tolkien sobre contos de fadas
+ECSVODFXRXZ5EJ6T
+https://meet.google.com/oad-pmfd-xet?authuser=1&hl=pt-BR
+meet.google.com/bwu-dgam-onx
+
+https://www.youtube.com/watch?v=dDoXmmALZmc
+
+https://www.amazon.com.br/ebooks-kindle/b/?ie=UTF8&node=21199071011
+
+https://www.in.gov.br/web/dou/-/portarias-de-9-de-setembro-de-2020-276635651
+
+ps axo stat,ppid,pid,comm | grep -w defunct
+
+O que é Testabilidade de Software?
+
+Qual o objetivo do teste do caminho básico?
+
+O que é o teste de particionamento de equivalência?
+
+Fale sobre o teste baseado em modelos.
+
+Tenho uma notícia: saiu a minha nomeação para a UFERSA e eu já não serei professor de vocês no próximo grupo de semanas com aulas de testes.
+
+Aproveito a mensagem para dizer-lhes do quanto gostei de ser professor de vocês ao longo deste tempo que passamos juntos.
+
+A turma foi sempre muito participativa e empolgada.
+
+Para mim foi um prazer lecionar a disciplina de Testes de Software ao longo deste ano.
+
+Abraços a todos e parabéns pelo bom desempenho na disciplina até agora!
+
+https://www.ciacomputadores.com/erro-security-error-no-lg-tutorial/
+
+Boa noite,
+
+Eis a derradeira atividade que avalio de vocês.
+wAsF@ccc3
+Segue a sua nota + comentários.
+
+Reitero tudo que disse no final do momento síncrono. Testes é uma das disciplinas que mais me empolga.
+
+Foi muito legal passar um tempo professor de todos.
+
+Abraços e sucesso!
+
+https://catracalivre.com.br/criatividade/classicos-da-literatura-como-a-metamorfose-de-franz-kafka-para-baixar/
+
+https://mercurial.aragost.com/kick-start/pt_BR/basic/#comandos-basicos
+
+http://icecce.com/
+
+
+Outliers - Malcolm Gladwell
+Kaizôn
+Você precisa ser um eterno aluno, um eterno aprendiz.
+
+https://www.javatpoint.com/error-guessing-technique-in-black-box-testing
+
+sudo do-release-upgrade -d
+
+lsb_release -a
+
+
+O resumo pode ser informativo ou descritivo
+O resumo deve conter: background, gap, purpose, methodology, main results, conclusion
+

@@ -53,7 +53,7 @@ public class ListaEstatica<T> {
 	public Iterator<T> getElements(){
 		@SuppressWarnings("unchecked")
 		T[] temp = (T[]) new Object[this.getQuantidade()];
-		System.arraycopy(this.elementos, temp);
+		//System.arraycopy(this.elementos, temp);
 		return Arrays.asList(temp).iterator();
 	}
 	

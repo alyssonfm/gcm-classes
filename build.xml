@@ -16,6 +16,7 @@
 					</fileset>
 					<fileset dir="lib/">
 						<include name="**/*.jar" />
+						<include name="junit.jar" />
 					</fileset>
 				</classpath>
 			</javac>

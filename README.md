@@ -9,3 +9,4 @@ Departamento de Engenharias e Tecnologia - DETEC
 
 UFERSA - Pau dos Ferros - RN.
 
+2022.2
